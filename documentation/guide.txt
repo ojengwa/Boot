@@ -1,0 +1,14 @@
+To use BootSite
+
+-- Download BootSite and put it in a folder beside the folder of the project you are going to use with it. For example, if your project is called SpecialPlayer, then BootSite should be right beside SpecialPlayer in the same folder
+
+
+
+Practical Guide using Eclipse.
+
+-- Create new Eclipse project with the name of your project that will use BootSite, e.g TestSite
+-- Clone the bootsite repository to a folder on the same level as your project
+-- Copy the file called bootsite.php.sample to your root directory, and rename it to bootsite.php
+-- Create a file called index.php in your root directory and include the bootsite.php file - Add the single line: include "bootsite.php";
+-- Open the bootsite.php file and make sure all the settings in that file are configured properly
+-- Copy the htaccess sample and modify it to fit
